@@ -1,0 +1,11 @@
+FOO = hello
+BAR = world
+
+all: $(FOO) $(BAR)
+	echo Building all
+
+hello:
+	echo "Hello!"
+
+world:
+	echo "World!"
